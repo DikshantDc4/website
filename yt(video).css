@@ -1,0 +1,55 @@
+.allign{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 30px;
+}
+.preview{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.video-info{
+  display:grid;
+  grid-template-columns: 32px 1fr;
+  margin-top: 6px;
+  column-gap: 10px;
+}
+.thumbnail-row{
+  position: relative;
+}
+.thumbnail{
+  width: 100%;
+  border-radius: 10px;
+}
+.thumbnail:hover{
+  border-radius: 0px;
+}
+.time{
+  background-color: rgb(45, 44, 44);
+  color: white;
+  position: absolute;
+  bottom: 7px;
+  right: 7px;
+  font-size: 14px;
+  padding: 4px;
+}
+.profile{
+  width:100%;
+  border-radius: 44px;
+}
+.title{
+  font-weight: 600;
+  width: 100%;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 6px;
+}
+.channel{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 3px;
+}
+.stats{
+  font-size: 12px;
+}

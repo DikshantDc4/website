@@ -1,0 +1,124 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  height: 52px;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px ;
+  background-color: white;
+  border-bottom: 1 px;
+  border-color: lightgray;
+  border-bottom-style: solid;
+  z-index: 5;
+}
+.start-sec{
+  display: flex;
+  align-items: center;
+}
+.hamburger-menu{
+  height: 19px;
+  margin-right: 24px;
+  margin-left: 27px;
+}
+.yt-logo{
+  height: 22px; 
+}
+.mid-sec{
+  flex:1; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 35px;
+  margin-left: 35px;
+  max-width: 680px;
+}
+.search{
+  display: block;
+  flex: 1;
+  height: 34px;
+  font-size: 18px;
+  padding-left: 15px;
+  border-radius: 20px;
+  border-color: lightgrey;
+  border-style: solid;
+  box-shadow: inset 0px 0px 5px rgba(181, 177, 177, 0.178) ;
+}
+.search.active{
+  border-color: blue;
+}
+.button-search-icon{
+  height: 39px;
+  width: 66px;
+  border-style: solid;
+  border-color: lightgrey;
+  border-top-right-radius:20px;
+  border-bottom-right-radius: 20px; 
+  background-color: rgb(236, 232, 232);
+  margin-left: -20px;
+}
+.search-icon{
+  height: 26px;
+  margin-top: 4px;
+}
+.button-voice-icon{
+  height: 40px;
+  border-style: none;
+  background-color: rgb(236, 232, 232);
+  margin-left: 9px;
+  border-radius: 20px;
+
+}
+.voice-icon{
+ height: 26px;
+ margin-top: 4px;
+}
+.end-sec{
+  display: flex;
+  align-items: center;
+
+}
+.button-upload-icon{
+  height: 40px;
+  width: 40px;
+  border-style: none;
+  background-color: white;
+}
+.upload-icon{
+  height: 26px;
+  margin-top: 4px;
+  margin-left: 5px;
+}
+.apps-icon{
+  height: 26px;
+  margin-left: 18px;
+}
+.channel-profile{
+  height: 32px;
+  border-radius: 18px;
+  margin-bottom: 2px;
+  margin-right: 20px;
+}
+.notification-container{
+  position: relative;
+}
+.notification-count{
+  position: absolute;
+  right: 13px;
+  top: -1px;
+  background-color: red;
+  padding-right: 4px;
+  padding-left: 4px;
+  border-radius: 10px;
+  font-size: 13px;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+}
+.notification-icon{
+  height: 25px;
+  margin-left: 18px;
+  margin-right: 18px;
+}

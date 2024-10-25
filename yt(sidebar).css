@@ -1,0 +1,56 @@
+.sidebar{
+  position: fixed;
+  top:52px;
+  left: 0px;
+  border-right: 2px;
+  bottom: 0px;
+  width: 80px;
+  background-color: white;
+  z-index: 6;
+}
+.home-button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 28px;
+  justify-content: center;
+  font-size: 12px;
+  height: 70px;
+}
+.home-button:hover{
+  background-color: rgba(211, 211, 211, 0.611);
+}
+.home-img{
+  height: 24px;
+  margin-bottom: 3px;
+}
+.explore-button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  height: 70px;
+}
+.explore-button:hover{
+  background-color: rgba(211, 211, 211, 0.611);
+}
+.explore-img{
+  height: 24px;
+  margin-bottom: 3px;
+}
+.subscription-button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  height: 70px;
+}
+.subscription-button:hover{
+  background-color: rgba(211, 211, 211, 0.611);
+}
+.subscription-img{
+  height: 24px;
+  margin-bottom: 3px;
+}
